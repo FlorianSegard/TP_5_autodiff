@@ -1,4 +1,4 @@
-from derivativeTP5_1 import compute_mean_diff, finite_derivative, finite_derivative_forward, finite_derivative_backward
+from TP5_1 import compute_mean_diff, finite_derivative, finite_derivative_forward, finite_derivative_backward
 from sympy import diff, symbols, lambdify
 import numpy as np
 

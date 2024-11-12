@@ -1,4 +1,4 @@
-from derivativeTP5_1 import finite_derivative
+from TP5_1 import finite_derivative
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D

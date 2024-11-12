@@ -33,8 +33,8 @@ if __name__ == "__main__":
         print("--------------------")
 
 
-# QUESTION: Quelle est l’influence du choix du pas h sur la précision de l’approximation ?
-# h=1 semble être un cas particulier mais sinon le plus précis est 0.01
+# Question 1: What is the influence of h on the approximation precision ?
+# h=1 seems like a special case otherwise the best case is h=0.01
 
-# QUESTION: Comparez cette méthode avec les différences finies avant et arrière. Quand une méthode est-elle préférable ?
-# Lorsque h est petit grand et que l'on a peu de précision il vaut mieux utiliser la différence finie centrale de plus il peut être préférable d'utiliser la backward ou la forward dans le cas où la fonction n'est dérivable qu'à droite ou qu'à gauche.
+# Question 2: Compare this method with the backward and forward. Which one is better ?
+# It seems like we would always want to take the central one, but in the case where the function do not have a derivate on the left or the right we might want to use one of the others.
